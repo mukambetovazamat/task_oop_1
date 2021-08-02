@@ -40,37 +40,5 @@
 
 
 
-class Student:
-    name = 'Ivan'
-    age = 18
-    groupNumber = '10A'
-
-    def __init__(self, name, age, groupNumber):
-        self.name = name
-        self.age = age
-        self.groupNumber = groupNumber
-
-    def getName(self):
-        return self.name
-
-    def getAge(self):
-        return self.age
-
-    def getGroupNumber(self):
-        return self.groupNumber
-
-    def setNameAge(self, new_name, new_age): 
-        self.name = new_name
-        self.age = new_age
-
-    def setGroupNumber(self, new_groupNumber): 
-        self.groupNumber = new_groupNumber
-
-a = Student('Roni', 19, 'a1')
-b = Student('Bron', 19, 'a1')
-c = Student('Chelo', 19, 'a1')
-d = Student('Demi', 19, 'a1')
-e = Student('Kasym', 19, 'a1')
-
 
 a.setGroupNumber(rwr1)
